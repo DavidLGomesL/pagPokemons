@@ -8,7 +8,8 @@
 :root {
   font-size: 62.5%; /*1rem = 10px*/
 
-  --main-color: hsl(0, 0%, 90%) /*Cor principal*/
+  --main-color: hsl(0, 0%, 90%); /*Cor principal*/
+  --linear-green-color: hsl(162, 64%, 56%); /*cor verde*/
 }
 
 html, body {
@@ -117,6 +118,13 @@ body .titulo {
 
 /*====POKEMONS-BULBASAUR===========================================================*/
 .containerPrincipal #bulbasaur {
-  background-color: hsl(162, 64%, 56%);
+  background-color: var(--linear-green-color);
   margin-left: 0rem;
+}
+
+/*====POKEMONS-CHARMANDER===========================================================*/
+.containerPrincipal #charmander {
+  background-color: hsl(0, 95%, 70%);
+  margin-right: -1rem;
+  margin-top: -10.9rem;
 }
