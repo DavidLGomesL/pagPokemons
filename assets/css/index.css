@@ -128,3 +128,17 @@ body .titulo {
   margin-right: -1rem;
   margin-top: -10.9rem;
 }
+
+.containerPrincipal #charmander h3 {
+  margin-top: -2rem;
+}
+
+.containerPrincipal #charmander img {
+  width: 6.27rem;
+  height: 6.9rem;
+
+  margin-top: 1.3rem;
+  margin-left: 8.5rem;
+}
+
+/*====POKEMONS-SQUIRTLE===========================================================*/
