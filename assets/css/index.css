@@ -40,7 +40,7 @@ body {
 body .titulo {
   margin-bottom: 4rem;
 }
-/*====POKEMONS===========================================================*/
+/*====POKEMONS-GERAL===========================================================*/
 .containerPrincipal .pokemons {
   display: flex;
   flex-direction: column;
@@ -54,11 +54,6 @@ body .titulo {
 
   width: 16.2rem;
   height: 10.9rem;
-}
-
-.containerPrincipal #bulbasaur {
-  background-color: hsl(162, 64%, 56%);
-  margin-left: 0rem;
 }
 
 .containerPrincipal .pokemons h2 {
@@ -85,7 +80,7 @@ body .titulo {
 }
 
 .containerPrincipal .pokemons .tipo p {
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--main-color);
   background-blend-mode: soft-light;
   opacity: 40%;
 
@@ -118,4 +113,10 @@ body .titulo {
 
   margin-left: 7.52rem;
   margin-top: 1.96rem;
+}
+
+/*====POKEMONS-BULBASAUR===========================================================*/
+.containerPrincipal #bulbasaur {
+  background-color: hsl(162, 64%, 56%);
+  margin-left: 0rem;
 }
