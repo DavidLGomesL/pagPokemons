@@ -10,6 +10,7 @@
 
   --main-color: hsl(0, 0%, 90%); /*Cor principal*/
   --linear-green-color: hsl(162, 64%, 56%); /*cor verde*/
+  --linear-red-color: hsl(0, 95%, 70%); /*cor vermelha*/
 }
 
 html, body {
@@ -124,7 +125,7 @@ body .titulo {
 
 /*====POKEMONS-CHARMANDER===========================================================*/
 .containerPrincipal #charmander {
-  background-color: hsl(0, 95%, 70%);
+  background-color: var(--linear-red-color);
   margin-right: -1rem;
   margin-top: -10.9rem;
 }
@@ -142,3 +143,20 @@ body .titulo {
 }
 
 /*====POKEMONS-SQUIRTLE===========================================================*/
+.containerPrincipal #squirtle {
+  background-color: hsl(187, 64%, 56%);
+  margin-left: 0rem;
+  margin-top: 1.8rem;
+}
+
+.containerPrincipal #squirtle h3 {
+  margin-top: -2rem;
+}
+
+.containerPrincipal #squirtle img {
+  width: 6.9rem;
+  height: 7.1rem;
+
+  margin-top: 1.3rem;
+  margin-left: 8.6rem;
+}
