@@ -1,0 +1,121 @@
+/*====GERAL===========================================================*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /*1rem = 10px*/
+
+  --main-color: hsl(0, 0%, 90%) /*Cor principal*/
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /*Fonte da página*/
+  font-size: 1.6rem;
+  font-style: normal;
+  text-align: center;
+
+  overflow: overlay;
+
+  background-color: white;
+}
+
+.containerPrincipal {
+  width: 37.5rem; /*37.5rem = 375px*/ /*width = largura do conteúdo da pág.*/
+  margin-inline: auto; /*Vai preencher toda margin de forma automática*/
+  padding-inline: 2.4rem;
+}
+/*====SECTION===========================================================*/
+body .titulo {
+  margin-bottom: 4rem;
+}
+/*====POKEMONS===========================================================*/
+.containerPrincipal .pokemons {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 1.5rem;
+
+  width: 16.2rem;
+  height: 10.9rem;
+}
+
+.containerPrincipal #bulbasaur {
+  background-color: hsl(162, 64%, 56%);
+  margin-left: 0rem;
+}
+
+.containerPrincipal .pokemons h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+
+  margin-left: 1.67rem;
+  margin-bottom: 0.99rem;
+  
+  color: white;
+}
+
+.containerPrincipal .pokemons h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+
+  text-align: right;
+
+  margin-right: 1.73rem;
+
+  opacity: 40%;
+}
+
+.containerPrincipal .pokemons .tipo p {
+  background-color: hsl(0, 0%, 100%);
+  background-blend-mode: soft-light;
+  opacity: 40%;
+
+  border-radius: 3.8rem;
+
+  width: 4.49rem;
+  height: 1.58rem;
+
+  margin-left: 1.67rem;
+  margin-bottom: 0.59rem;
+
+  justify-content: center;
+}
+
+.containerPrincipal .tipo p {
+  display: flex;
+
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  line-height: 2.8rem;
+}
+
+.containerPrincipal .pokemons img {
+  position: absolute;
+
+  width: 7.94rem;
+  height: 7.03rem;
+
+  margin-left: 7.52rem;
+  margin-top: 1.96rem;
+}
