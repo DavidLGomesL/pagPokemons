@@ -43,6 +43,18 @@ body {
 body .titulo {
   margin-bottom: 4rem;
 }
+
+.section .logoPokemon {
+  display: inline-flex;
+  position: absolute;
+
+  margin-top: 4.7rem;
+
+  justify-content: center;
+
+  width: 1.42rem;
+  height: 5.1rem;
+}
 /*====POKEMONS-GERAL===========================================================*/
 .containerPrincipal .pokemons {
   display: flex;
@@ -199,3 +211,21 @@ body .titulo {
 }
 
 /*====POKEMONS-BLASTOISE===========================================================*/
+.containerPrincipal #blastoise {
+  background-color: var(--linear-blue-color);
+
+  margin-right: -1rem;
+  margin-top: -10.9rem;
+}
+
+.containerPrincipal #blastoise h3 {
+  margin-top: -2rem;
+}
+
+.containerPrincipal #blastoise img {
+  width: 7.6rem;
+  height: 7.5rem;
+
+  margin-top: 1.4rem;
+  margin-left: 8.1rem;
+}
