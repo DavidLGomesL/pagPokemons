@@ -32,6 +32,7 @@ body {
   overflow: overlay;
 
   background-color: white;
+
 }
 
 .containerPrincipal {
@@ -39,6 +40,77 @@ body {
   margin-inline: auto; /*Vai preencher toda margin de forma automática*/
   padding-inline: 2.4rem;
 }
+
+/*====HEADER===========================================================*/
+.header {
+  background-color: hsl(0, 0%, 29%);
+  color: white;
+
+  display: flex;
+
+  flex-direction: column;
+
+
+  width: 100%;
+  height: 15.4rem;
+
+  border-radius: 0rem 0rem 2.4rem 2.4rem;
+
+}
+
+.header h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.42rem;
+
+  margin-top: 7.6rem;
+  margin-right: 18.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.header p {
+  margin-right: 23.5rem;
+}
+
+.header .imgSubtract {
+  display: flex;
+  position: absolute;
+  
+  margin-left: 26.6rem;
+  margin-top: 0.7rem;
+  
+  width: 14.67rem;
+  height: 14.7rem;
+
+  
+  opacity: 40%;
+}
+
+.header .foto {
+  display: flex;
+  position: absolute;
+
+  width: 4.7rem;
+  height: 4.7rem;
+
+  margin-top: 6.2rem;
+  margin-left: 32.1rem;
+
+  border: 0.2rem solid #f1f1f1;
+  border-radius: 1rem;
+}
+
+.header .imgEllipse {
+  display: flex;
+  position: absolute;
+
+  width: 0.9rem;
+  height: 0.9rem;
+
+  margin-top: 5.6rem;
+  margin-left: 36.6rem;
+}
+
 /*====SECTION===========================================================*/
 body .titulo {
   margin-bottom: 4rem;
