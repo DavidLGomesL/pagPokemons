@@ -11,6 +11,7 @@
   --main-color: hsl(0, 0%, 90%); /*Cor principal*/
   --linear-green-color: hsl(162, 64%, 56%); /*cor verde*/
   --linear-red-color: hsl(0, 95%, 70%); /*cor vermelha*/
+  --linear-blue-color: hsl(187, 64%, 56%); /*cor azul*/
 }
 
 html, body {
@@ -144,7 +145,7 @@ body .titulo {
 
 /*====POKEMONS-SQUIRTLE===========================================================*/
 .containerPrincipal #squirtle {
-  background-color: hsl(187, 64%, 56%);
+  background-color: var(--linear-blue-color);
   margin-left: 0rem;
   margin-top: 1.8rem;
 }
@@ -159,4 +160,24 @@ body .titulo {
 
   margin-top: 1.3rem;
   margin-left: 8.6rem;
+}
+
+/*====POKEMONS-SQUIRTLE===========================================================*/
+.containerPrincipal #pikachu {
+  background-color: hsl(44, 100%, 65%);
+  
+  margin-right: -1rem;
+  margin-top: -10.9rem;
+}
+
+.containerPrincipal #pikachu h3 {
+  margin-top: -2rem;
+}
+
+.containerPrincipal #pikachu img {
+  width: 9rem;
+  height: 8.4rem;
+
+  margin-top: 0.5rem;
+  margin-left: 7rem;
 }
