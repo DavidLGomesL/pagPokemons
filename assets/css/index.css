@@ -162,7 +162,7 @@ body .titulo {
   margin-left: 8.6rem;
 }
 
-/*====POKEMONS-SQUIRTLE===========================================================*/
+/*====POKEMONS-PIKACHU===========================================================*/
 .containerPrincipal #pikachu {
   background-color: hsl(44, 100%, 65%);
   
@@ -181,3 +181,21 @@ body .titulo {
   margin-top: 0.5rem;
   margin-left: 7rem;
 }
+
+/*====POKEMONS-CHARIZARD===========================================================*/
+.containerPrincipal #charizard {
+  background-color: var(--linear-red-color);
+
+  margin-left: 0rem;
+  margin-top: 1.8rem;
+}
+
+.containerPrincipal #charizard img {
+  width: 9.82rem;
+  height: 9.4rem;
+
+  margin-top: 1.5rem;
+  margin-left: 6.16rem;
+}
+
+/*====POKEMONS-BLASTOISE===========================================================*/
