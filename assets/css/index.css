@@ -47,9 +47,7 @@ body {
   color: white;
 
   display: flex;
-
-  flex-direction: column;
-
+  align-items: center;
 
   width: 100%;
   height: 15.4rem;
@@ -58,26 +56,32 @@ body {
 
 }
 
+
 .header h2 {
   font-size: 2rem;
   font-weight: 400;
   line-height: 2.42rem;
 
   margin-top: 7.6rem;
-  margin-right: 18.2rem;
   margin-bottom: 0.2rem;
+
+  display: flex;
+  
+  text-align: left;
+  letter-spacing: -0.01em;
 }
 
 .header p {
   margin-right: 23.5rem;
+  display: table-footer-group;
 }
 
 .header .imgSubtract {
   display: flex;
   position: absolute;
   
-  margin-left: 26.6rem;
-  margin-top: 0.7rem;
+  margin-left: 21.31rem;
+  margin-top: -35.4%;
   
   width: 14.67rem;
   height: 14.7rem;
@@ -93,8 +97,8 @@ body {
   width: 4.7rem;
   height: 4.7rem;
 
-  margin-top: 6.2rem;
-  margin-left: 32.1rem;
+  margin-top: -7.8rem;
+  margin-left: 26.9rem;
 
   border: 0.2rem solid #f1f1f1;
   border-radius: 1rem;
@@ -107,8 +111,8 @@ body {
   width: 0.9rem;
   height: 0.9rem;
 
-  margin-top: 5.6rem;
-  margin-left: 36.6rem;
+  margin-top: -8.1rem;
+  margin-left: 31.9rem;
 }
 
 /*====SECTION===========================================================*/
@@ -126,6 +130,18 @@ body .titulo {
 
   width: 1.42rem;
   height: 5.1rem;
+}
+
+.section h1 {
+  display: flex;
+  flex-direction: column;
+  
+  text-align: left;
+
+  letter-spacing: 0.01em;
+
+  margin-top: 3.9rem;
+  margin-left: 2.1rem;
 }
 /*====POKEMONS-GERAL===========================================================*/
 .containerPrincipal .pokemons {
