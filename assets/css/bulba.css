@@ -42,6 +42,7 @@ body {
   padding-inline: 2.4rem;
 }
 /*====SECTION===========================================================*/
+/*====SECTION-DESCRIÇÃO=================================================*/
 .containerPrincipal .descricaoPokemon h2 {
   font-size: 2rem;
   font-weight: 700;
@@ -67,4 +68,65 @@ body {
   height: 6.7rem;
 
   margin-bottom: 4.2rem;
+}
+/*====SECTION-DADOS=====================================================*/
+.dadosPokemon {
+  display: flex;
+  font-family: 'Inter';
+}
+
+.dadosPokemon h3 {
+  font-size: 1.4rem;
+  width: 7.2rem;
+  height: 3.2rem;
+  line-height: 1.6rem;
+
+  color: #212121;
+}
+
+.dadosPokemon p {
+  font-size: 1rem;
+
+  line-height: 1.2rem;
+
+  color: #767676;
+}
+
+.dadosPokemon .peso {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  justify-content: center;
+
+  border-right: 0.2rem solid #e0e0e0;
+
+  padding-right: 2.4rem;
+}
+
+.dadosPokemon .altura {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  justify-content: center;
+
+  border-right: 0.2rem solid #e0e0e0;
+
+  padding-right: 2.4rem;
+
+  margin-left: 2.4rem;
+}
+
+.dadosPokemon .poderPrincipal {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  justify-content: center;
+
+  margin-left: 2.4rem;
 }
