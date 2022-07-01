@@ -7,6 +7,12 @@
 
 :root {
   font-size: 62.5%; /*1rem = 10px*/
+
+  --main-color: hsl(0, 0%, 90%); /*Cor principal*/
+  --linear-green-color: hsl(166, 59%, 55%); /*cor verde*/
+  --linear-red-color: hsl(0, 95%, 70%); /*cor vermelha*/
+  --linear-blue-color: hsl(187, 64%, 56%); /*cor azul*/
+  --linear-black-color: hsl(212, 17%, 23%); /*cor preta*/
 }
 
 html, body {
@@ -36,3 +42,29 @@ body {
   padding-inline: 2.4rem;
 }
 /*====SECTION===========================================================*/
+.containerPrincipal .descricaoPokemon h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+
+  color: var(--linear-green-color);
+
+  width: 10.3rem;
+  height: 1.6rem;
+
+  margin-bottom: 4.1rem;
+}
+
+.containerPrincipal .descricaoPokemon p {
+  font-family: 'Kantumruy Pro';
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  color: var(--linear-black-color);
+
+  width: 33.5rem;
+  height: 6.7rem;
+
+  margin-bottom: 4.2rem;
+}
