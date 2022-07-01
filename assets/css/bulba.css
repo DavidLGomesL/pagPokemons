@@ -1,0 +1,38 @@
+/*====GERAL===========================================================*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /*1rem = 10px*/
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /*Fonte da página*/
+  font-size: 1.6rem;
+  font-style: normal;
+  text-align: left;
+
+  overflow: overlay;
+
+  background-color: white;
+
+}
+
+.containerPrincipal {
+  width: 37.5rem; /*37.5rem = 375px*/ /*width = largura do conteúdo da pág.*/
+  margin-inline: auto; /*Vai preencher toda margin de forma automática*/
+  padding-inline: 2.4rem;
+}
+/*====SECTION===========================================================*/
