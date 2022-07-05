@@ -140,10 +140,11 @@ body {
 
   margin-top: 3.1rem;
 }
-
+/*====SECTION-CARACTERÍSTICAS-GÊNERO========================================*/
 .containerPrincipal .caracteristicas .genero {
   display: flex;
   flex-direction: row;
+  margin-top: 1.7rem;
 }
 
 .containerPrincipal 
@@ -156,4 +157,43 @@ body {
 .caracteristicas 
 .genero #femia {
   margin-left: 1.4rem;
+}
+/*====SECTION-CARACTERÍSTICAS-SAÚDE=========================================*/
+.containerPrincipal .caracteristicas .saude {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1.4rem;
+  align-items: center;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.saude #valorSaude {
+  margin-left: 5.8rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.saude #linhaValorSaude {
+  margin-left: 1.3rem;
+  
+  width: 20rem;
+  height: 0.3rem;
+
+  opacity: 0.9;
+
+  border: 0.2rem solid #e0e0e0;
+  border-radius: 0.5rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.saude #linhaInternaValorSaude {
+  position: absolute;
+  width: 8rem;
+  height: 0.2rem;
+
+  background-color: #fb6c6c;
+  
+  margin-left: 14rem;
 }
