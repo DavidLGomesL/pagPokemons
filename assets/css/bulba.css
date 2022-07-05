@@ -197,3 +197,82 @@ body {
   
   margin-left: 14rem;
 }
+/*====SECTION-CARACTERÍSTICAS-ATAQUE========================================*/
+.containerPrincipal .caracteristicas .ataque {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1.4rem;
+  align-items: center;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.ataque #valorAtaque {
+  margin-left: 5.3rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.ataque #linhaValorAtaque {
+  margin-left: 1.3rem;
+  
+  width: 20rem;
+  height: 0.3rem;
+
+  opacity: 0.9;
+
+  border: 0.2rem solid #e0e0e0;
+  border-radius: 0.5rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.ataque #linhaInternaValorAtaque {
+  position: absolute;
+  width: 12.8rem;
+  height: 0.2rem;
+
+  background-color: #48d0b0;
+  
+  margin-left: 14.1rem;
+}
+/*====SECTION-CARACTERÍSTICAS-DEFESA========================================*/
+.containerPrincipal .caracteristicas .defesa {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1.4rem;
+  align-items: center;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.defesa #valorDefesa {
+  margin-left: 5.3rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.defesa #linhaValorDefesa {
+  margin-left: 1.3rem;
+  
+  width: 20rem;
+  height: 0.3rem;
+
+  opacity: 0.9;
+
+  border: 0.2rem solid #e0e0e0;
+  border-radius: 0.5rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.defesa #linhaInternaValorDefesa {
+  position: absolute;
+  width: 8.9rem;
+  height: 0.2rem;
+
+  background-color: #48d0b0;
+  
+  margin-left: 14.1rem;
+}
+/*====SECTION-CARACTERÍSTICAS-VL.ATAQUE=====================================*/
