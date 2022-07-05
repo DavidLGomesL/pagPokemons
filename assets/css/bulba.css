@@ -130,3 +130,30 @@ body {
 
   margin-left: 2.4rem;
 }
+/*====SECTION-CARACTERÍSTICAS===============================================*/
+.containerPrincipal .caracteristicas h2 {
+  font-family: 'Inter';
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  line-height: 2.8rem;
+
+  margin-top: 3.1rem;
+}
+
+.containerPrincipal .caracteristicas .genero {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.genero #macho {
+  margin-left: 8rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.genero #femia {
+  margin-left: 1.4rem;
+}
