@@ -366,8 +366,89 @@ body {
 
   background-color: #48d0b0;
   
-  margin-left: 12.4rem;
+  margin-left: 12.38rem;
 
   border-radius: 0.5rem;
 }
 /*====SECTION-CARACTERÍSTICAS-VELOCIDADE====================================*/
+.containerPrincipal .caracteristicas .velocidade {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1.4rem;
+  align-items: center;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.velocidade #valorVelocidade {
+  margin-left: 2.8rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.velocidade #linhaVelocidade {
+  margin-left: 1.3rem;
+  
+  width: 20rem;
+  height: 0.3rem;
+
+  opacity: 0.9;
+
+  border: 0.2rem solid #e0e0e0;
+  border-radius: 0.5rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.velocidade #linhaInternaVelocidade {
+  position: absolute;
+  width: 8.82rem;
+  height: 0.2rem;
+
+  background-color: #fb6c6c;
+  
+  margin-left: 12.38rem;
+
+  border-radius: 0.5rem;
+}
+/*====SECTION-CARACTERÍSTICAS-TOTAL=========================================*/
+.containerPrincipal .caracteristicas .totalCaracteristicas {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 1.4rem;
+  align-items: center;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.totalCaracteristicas #valorTotalCaracte {
+  margin-left: 6.3rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.totalCaracteristicas #linhaTotalCaracte {
+  margin-left: 1.2rem;
+  
+  width: 20rem;
+  height: 0.3rem;
+
+  opacity: 0.9;
+
+  border: 0.2rem solid #e0e0e0;
+  border-radius: 0.5rem;
+}
+
+.containerPrincipal 
+.caracteristicas 
+.totalCaracteristicas #linhaInternaTotalCaracte {
+  position: absolute;
+  width: 9.82rem;
+  height: 0.2rem;
+
+  background-color: #4BC07A;
+  
+  margin-left: 12.4rem;
+
+  border-radius: 0.5rem;
+}
