@@ -41,9 +41,89 @@ body {
   margin-inline: auto; /*Vai preencher toda margin de forma automática*/
   padding-inline: 2.4rem;
 }
+/*====HEADER============================================================*/
+.header {
+  font-family: 'Inter';
+  
+  background-color: hsl(162, 64%, 56%);
+
+  width: 37.5rem; /*37.5rem = 375px*/ /*width = largura do conteúdo da pág.*/
+  margin-inline: auto; /*Vai preencher toda margin de forma automática*/
+  padding-inline: 2.4rem;
+  height: 22.6rem;
+  position: absolute;
+}
+
+.header .nomeNumero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 1.2rem;
+
+  color: #ffffff;
+}
+
+.header .nomeNumero h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+
+  margin-left: 12.2rem;
+}
+
+.header .tipo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
+
+.header .tipo #tipoPlanta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.7rem;
+
+  background-color: hsl(0, 0%, 90%);
+  background-blend-mode: soft-light;
+  opacity: 40%;
+  border-radius: 3.8rem;
+  width: 7rem;
+  height: 2.5rem;
+}
+
+.header .tipo #tipoVenenoso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: hsl(0, 0%, 90%);
+  background-blend-mode: soft-light;
+  opacity: 40%;
+  border-radius: 3.8rem;
+  width: 7rem;
+  height: 2.5rem;
+}
+
+.header img {
+  width: 19.16rem;
+  height: 18.9rem;
+
+  margin-left: 6.6rem;
+  margin-top: 0.7rem;
+}
 /*====SECTION===========================================================*/
+.section {
+  position: absolute;
+  margin-top: 22.5rem;
+}
+
 .section .containerPrincipal {
-  margin-top: 5.2rem;
+  margin-top: 4.5rem;
 }
 /*====SECTION-DESCRIÇÃO=================================================*/
 .containerPrincipal .descricaoPokemon h2 {

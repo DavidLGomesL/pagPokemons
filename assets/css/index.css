@@ -35,10 +35,14 @@ body {
 
 }
 
-.containerPrincipal {
+body {
   width: 37.5rem; /*37.5rem = 375px*/ /*width = largura do conteúdo da pág.*/
   margin-inline: auto; /*Vai preencher toda margin de forma automática*/
   padding-inline: 2.4rem;
+}
+
+body .containerPrincipal {
+  margin-left: 2.1rem;
 }
 
 /*====HEADER===========================================================*/
@@ -49,8 +53,9 @@ body {
   display: flex;
   align-items: center;
 
-  width: 100%;
+  width: 37.5rem;
   height: 15.4rem;
+  margin-inline: auto;
 
   border-radius: 0rem 0rem 2.4rem 2.4rem;
 
@@ -78,10 +83,9 @@ body {
 
 .header .imgSubtract {
   display: flex;
-  position: absolute;
   
-  margin-left: 24.31rem;
-  margin-top: -13.2rem;
+  margin-left: 21.44rem;
+  margin-top: -11.69rem;
   
   width: 14.67rem;
   height: 14.7rem;
@@ -97,8 +101,8 @@ body {
   width: 4.7rem;
   height: 4.7rem;
 
-  margin-top: -7.7rem;
-  margin-left: 29.9rem;
+  margin-top: -9.16rem;
+  margin-left: 27rem;
 
   border: 0.2rem solid #f1f1f1;
   border-radius: 1rem;
@@ -111,20 +115,34 @@ body {
   width: 0.9rem;
   height: 0.9rem;
 
-  margin-top: -8.1rem;
-  margin-left: 34.9rem;
+  margin-top: -9.86rem;
+  margin-left: 31.68rem;
 }
 
 /*====SECTION===========================================================*/
-body .titulo {
-  margin-bottom: 4rem;
-}
+.section .titulo {
+  display: flex;
 
+  font-family: 'Inter';
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.12rem;
+  letter-spacing: -0.01em;
+
+  text-align: left;
+
+  margin-left: 2.1rem;
+  margin-top: 3.9rem;
+  margin-bottom: 4rem;
+
+  color: hsl(212, 17%, 23%);
+}
 .section .logoPokemon {
   display: inline-flex;
   position: absolute;
 
   margin-top: 4.7rem;
+  margin-left: 1.2rem;
 
   justify-content: center;
 
@@ -132,19 +150,8 @@ body .titulo {
   height: 5.1rem;
 }
 
-.section h1 {
-  display: flex;
-  flex-direction: column;
-  
-  text-align: center;
-
-  letter-spacing: -0.01em;
-
-  margin-top: 3.9rem;
-  margin-left: 2.1rem;
-}
 /*====POKEMONS-GERAL===========================================================*/
-.containerPrincipal .pokemons {
+.pokemons {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -159,7 +166,7 @@ body .titulo {
   height: 10.9rem;
 }
 
-.containerPrincipal .pokemons h2 {
+.pokemons h2 {
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 1.4rem;
@@ -170,7 +177,7 @@ body .titulo {
   color: white;
 }
 
-.containerPrincipal .pokemons h3 {
+.pokemons h3 {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.4rem;
@@ -182,7 +189,7 @@ body .titulo {
   opacity: 40%;
 }
 
-.containerPrincipal .pokemons .tipo p {
+.pokemons .tipo p {
   background-color: var(--main-color);
   background-blend-mode: soft-light;
   opacity: 40%;
@@ -198,7 +205,7 @@ body .titulo {
   justify-content: center;
 }
 
-.containerPrincipal .tipo p {
+.tipo p {
   display: flex;
 
   font-size: 0.8rem;
@@ -208,7 +215,7 @@ body .titulo {
   line-height: 2.8rem;
 }
 
-.containerPrincipal .pokemons img {
+.pokemons img {
   position: absolute;
 
   width: 7.94rem;
@@ -219,23 +226,23 @@ body .titulo {
 }
 
 /*====POKEMONS-BULBASAUR===========================================================*/
-.containerPrincipal #bulbasaur {
+   #bulbasaur {
   background-color: var(--linear-green-color);
   margin-left: 0rem;
 }
 
 /*====POKEMONS-CHARMANDER===========================================================*/
-.containerPrincipal #charmander {
+   #charmander {
   background-color: var(--linear-red-color);
-  margin-right: -1rem;
+  margin-right: -2.5rem;
   margin-top: -10.9rem;
 }
 
-.containerPrincipal #charmander h3 {
+   #charmander h3 {
   margin-top: -2rem;
 }
 
-.containerPrincipal #charmander img {
+   #charmander img {
   width: 6.27rem;
   height: 6.9rem;
 
@@ -244,17 +251,17 @@ body .titulo {
 }
 
 /*====POKEMONS-SQUIRTLE===========================================================*/
-.containerPrincipal #squirtle {
+   #squirtle {
   background-color: var(--linear-blue-color);
   margin-left: 0rem;
   margin-top: 1.8rem;
 }
 
-.containerPrincipal #squirtle h3 {
+   #squirtle h3 {
   margin-top: -2rem;
 }
 
-.containerPrincipal #squirtle img {
+   #squirtle img {
   width: 6.9rem;
   height: 7.1rem;
 
@@ -263,18 +270,18 @@ body .titulo {
 }
 
 /*====POKEMONS-PIKACHU===========================================================*/
-.containerPrincipal #pikachu {
+   #pikachu {
   background-color: hsl(44, 100%, 65%);
   
-  margin-right: -1rem;
+  margin-right: -2.5rem;
   margin-top: -10.9rem;
 }
 
-.containerPrincipal #pikachu h3 {
+   #pikachu h3 {
   margin-top: -2rem;
 }
 
-.containerPrincipal #pikachu img {
+   #pikachu img {
   width: 9rem;
   height: 8.4rem;
 
@@ -283,14 +290,14 @@ body .titulo {
 }
 
 /*====POKEMONS-CHARIZARD===========================================================*/
-.containerPrincipal #charizard {
+   #charizard {
   background-color: var(--linear-red-color);
 
   margin-left: 0rem;
   margin-top: 1.8rem;
 }
 
-.containerPrincipal #charizard img {
+   #charizard img {
   width: 9.82rem;
   height: 9.4rem;
 
@@ -299,18 +306,18 @@ body .titulo {
 }
 
 /*====POKEMONS-BLASTOISE===========================================================*/
-.containerPrincipal #blastoise {
+   #blastoise {
   background-color: var(--linear-blue-color);
 
-  margin-right: -1rem;
+  margin-right: -2.5rem;
   margin-top: -10.9rem;
 }
 
-.containerPrincipal #blastoise h3 {
+   #blastoise h3 {
   margin-top: -2rem;
 }
 
-.containerPrincipal #blastoise img {
+   #blastoise img {
   width: 7.6rem;
   height: 7.5rem;
 
