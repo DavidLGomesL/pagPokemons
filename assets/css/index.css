@@ -215,21 +215,32 @@ body .containerPrincipal {
   line-height: 2.8rem;
 }
 
-.pokemons img {
+.pokemons a img {
   position: absolute;
 
   width: 7.94rem;
   height: 7.03rem;
 
   margin-left: 7.52rem;
-  margin-top: 1.96rem;
+  margin-top: -5.76rem;
 }
 
+.pokemons a {
+  text-decoration: none;
+}
 /*====POKEMONS-BULBASAUR===========================================================*/
    #bulbasaur {
   background-color: var(--linear-green-color);
   margin-left: 0rem;
 }
+
+   #bulbasaur h3 {
+    color: #073a2b;
+   }
+
+   #bulbasaur p {
+    color: #073a2b;
+   }
 
 /*====POKEMONS-CHARMANDER===========================================================*/
    #charmander {
@@ -240,13 +251,18 @@ body .containerPrincipal {
 
    #charmander h3 {
   margin-top: -2rem;
+  color: #1a0000;
 }
+
+   #charmander p {
+    color: #1a0000;
+   }
 
    #charmander img {
   width: 6.27rem;
   height: 6.9rem;
 
-  margin-top: 1.3rem;
+  margin-top: -4.05rem;
   margin-left: 8.5rem;
 }
 
@@ -259,13 +275,18 @@ body .containerPrincipal {
 
    #squirtle h3 {
   margin-top: -2rem;
+  color: #00284c;
 }
+
+   #squirtle p {
+    color: #00284c;
+   }
 
    #squirtle img {
   width: 6.9rem;
   height: 7.1rem;
 
-  margin-top: 1.3rem;
+  margin-top: -4.05rem;
   margin-left: 8.6rem;
 }
 
@@ -279,13 +300,18 @@ body .containerPrincipal {
 
    #pikachu h3 {
   margin-top: -2rem;
+  color: #503801;
 }
+
+   #pikachu p {
+    color: #503801;
+   }
 
    #pikachu img {
   width: 9rem;
   height: 8.4rem;
 
-  margin-top: 0.5rem;
+  margin-top: -5.76rem;
   margin-left: 7rem;
 }
 
@@ -297,11 +323,19 @@ body .containerPrincipal {
   margin-top: 1.8rem;
 }
 
+   #charizard h3 {
+  color: #1a0000;
+}
+
+   #charizard p {
+    color: #1a0000;
+   }
+
    #charizard img {
   width: 9.82rem;
   height: 9.4rem;
 
-  margin-top: 1.5rem;
+  margin-top: -7.16rem;
   margin-left: 6.16rem;
 }
 
@@ -315,12 +349,17 @@ body .containerPrincipal {
 
    #blastoise h3 {
   margin-top: -2rem;
+  color: #00284c;
 }
+
+   #blastoise p {
+    color: #00284c;
+   }
 
    #blastoise img {
   width: 7.6rem;
   height: 7.5rem;
 
-  margin-top: 1.4rem;
+  margin-top: -4.26rem;
   margin-left: 8.1rem;
 }
