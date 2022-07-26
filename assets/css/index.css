@@ -38,7 +38,7 @@ body {
 body {
   width: 37.5rem; /*37.5rem = 375px*/ /*width = largura do conteúdo da pág.*/
   margin-inline: auto; /*Vai preencher toda margin de forma automática*/
-  padding-inline: 2.4rem;
+  padding-inline: auto;
 }
 
 body .containerPrincipal {
@@ -142,7 +142,6 @@ body .containerPrincipal {
   position: absolute;
 
   margin-top: 4.7rem;
-  margin-left: 1.2rem;
 
   justify-content: center;
 
@@ -245,7 +244,7 @@ body .containerPrincipal {
 /*====POKEMONS-CHARMANDER===========================================================*/
    #charmander {
   background-color: var(--linear-red-color);
-  margin-right: -2.5rem;
+  margin-right: 1.5rem;
   margin-top: -10.9rem;
 }
 
@@ -294,7 +293,7 @@ body .containerPrincipal {
    #pikachu {
   background-color: hsl(44, 100%, 65%);
   
-  margin-right: -2.5rem;
+  margin-right: 1.5rem;
   margin-top: -10.9rem;
 }
 
@@ -343,7 +342,7 @@ body .containerPrincipal {
    #blastoise {
   background-color: var(--linear-blue-color);
 
-  margin-right: -2.5rem;
+  margin-right: 1.5rem;
   margin-top: -10.9rem;
 }
 
